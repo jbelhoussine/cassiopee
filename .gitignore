@@ -1,0 +1,46 @@
+# Ignore local Python environment directory
+ryu_env/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+
+# Python distribution/build
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated datasets and local model artefacts, on n'envoie que les données prepared
+data/final_dataset.csv
+data/network_traffic_*.csv
+random_forest_request*.pkl
+
+# Portfolio: generated files remain local; see MIGRATION.md
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+logs/
+*.log
+*.out
+*.csv
+*.pkl
+data/prepared/scaler_stats.json
+controllers/current_label.txt
+scripts/current_label.txt
+article/*.aux
+article/*.bbl
+article/*.blg
+article/*.fdb_latexmk
+article/*.fls
+article/*.pdf
+article/*.synctex.gz
+

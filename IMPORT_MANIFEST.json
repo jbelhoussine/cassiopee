@@ -1,0 +1,344 @@
+{
+  "source": "https://gitlabense.imtbs-tsp.eu/paul.tulliez/cassiopee",
+  "archive": "cassiopee-main.zip",
+  "archive_sha256": "9629a29e4ff1dfc6939e0bb3ffda71c7b5cb2f0893a2631a6931f9d4ff79ef0d",
+  "branch_from_archive_name": "main",
+  "git_history_in_archive": false,
+  "included": [
+    {
+      "path": ".gitignore",
+      "bytes": 385,
+      "sha256": "6df194bc7d83bed77bf2ae30923ee412e9466da40be57b0cffd66f9444367f2a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 15540,
+      "sha256": "f58e579adedd3ed8cce56f4af80ba7e2dda6554ed00495d1e14f387dfaa43773"
+    },
+    {
+      "path": "analyze_dataset.py",
+      "bytes": 918,
+      "sha256": "58d0a70bceca6578756d78a51c226ab4b1850287fbba366340c27506418ee308"
+    },
+    {
+      "path": "article/Cassiopé.md",
+      "bytes": 384808,
+      "sha256": "4e3d927712880f892e2672c3dcd596f326473384da276d3b380b2e94e2083e0e"
+    },
+    {
+      "path": "article/images/importance_metriques.png",
+      "bytes": 24742,
+      "sha256": "fdd5adfdbd316d9f87f32c2c62dd7d0f0d6e1436e63d59440e7bb368e7fc34ad"
+    },
+    {
+      "path": "article/images/matrice_confusion.png",
+      "bytes": 28998,
+      "sha256": "7a91aff2b45597187045678d4bb5ad8ae05a6e608fd44b5a45b2033b87ce2632"
+    },
+    {
+      "path": "article/images/repartition_trafic.png",
+      "bytes": 23496,
+      "sha256": "bdc8a8eda17f573bb175724083e23d1deda630acd908fa3e97f6bf8b5c424506"
+    },
+    {
+      "path": "article/images/topo_arbre.png",
+      "bytes": 1237319,
+      "sha256": "95610bf5108b548097328fc60b6564855541daa8f7c060ecec2d6ffb1f94d917"
+    },
+    {
+      "path": "article/main.tex",
+      "bytes": 53916,
+      "sha256": "d3aca267d09de9cccce90ee5975fb9860ddbf345bda3649822981457a53f8b1a"
+    },
+    {
+      "path": "article/references.bib",
+      "bytes": 724,
+      "sha256": "b3ff5b2b8dcc948a6a4b795c5c96973c6fec04fde20be33287344cb766756808"
+    },
+    {
+      "path": "controllers/monitoring_controller.py",
+      "bytes": 13426,
+      "sha256": "94ed5a44b0de6464f27fbb8266b803ef862ff153ed1de28f73f8e4d5ff1b332f"
+    },
+    {
+      "path": "controllers/switch_simple.py",
+      "bytes": 933,
+      "sha256": "4df1d8f5a12698c54f0d12071b5fb0060649077dae15bef607c80aea431e8783"
+    },
+    {
+      "path": "importance_metriques.png",
+      "bytes": 25748,
+      "sha256": "d2641f1ce8a9dc204c5d29897acd0bb331948002b74559ae3a69600e9256a4d8"
+    },
+    {
+      "path": "install.sh",
+      "bytes": 1736,
+      "sha256": "13800ab795fb9662f5ec381bf20f0e99ca2b71efb17a979bd7d599eadcbd083b"
+    },
+    {
+      "path": "matrice_confusion.png",
+      "bytes": 29336,
+      "sha256": "da5271869f97a12a78925fadc94c12d18235b94ba790930662d044db133c1a3d"
+    },
+    {
+      "path": "normalize_data.py",
+      "bytes": 10238,
+      "sha256": "c08ef76bfec44bfb96a396098d9119e0f7e699c4b2276848dfc42fa514be0632"
+    },
+    {
+      "path": "random_forest.py",
+      "bytes": 4300,
+      "sha256": "2976d20bd6869bb00987c4ece1059fbb59d3e4458167ab7aafd02e5ca88bec24"
+    },
+    {
+      "path": "repartition_trafic.png",
+      "bytes": 23950,
+      "sha256": "73753c773e7eb02d1bd9d0dac32caa5625888b0a9e6211d5f13c605445ee07de"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 757,
+      "sha256": "ca7d83d8a01f1fb9d7040b5215114e4af361b65bd79df73e57fe4e2a27b57806"
+    },
+    {
+      "path": "run_expe.sh",
+      "bytes": 2476,
+      "sha256": "b588fb00d411aeb1cc2333c8da7575d1ce6c55bf4036d7dde25b1b94a2fb6769"
+    },
+    {
+      "path": "scripts/analyze_dataset.py",
+      "bytes": 3828,
+      "sha256": "606f09f9bca0db8239a9c8e9fca652c9c4b2e1afc5fdec856a516b0240344c1d"
+    },
+    {
+      "path": "scripts/attack_generator.py",
+      "bytes": 10973,
+      "sha256": "5bd31c5b48284d94a00a425e8f61225e343c232336516e9650f380e78b65b464"
+    },
+    {
+      "path": "scripts/clean_and_analyze_dataset.py",
+      "bytes": 6397,
+      "sha256": "a37d7be35301cc685d2ac527ad54601e19c13a04286c26e8d6d86593a348dc3f"
+    },
+    {
+      "path": "scripts/generate_attacks.py",
+      "bytes": 1001,
+      "sha256": "4e0cc0e578235d4de26445b96b513a4b00f0d376e5e1199b623fb35777fd5829"
+    },
+    {
+      "path": "scripts/generate_normal_trafic.py",
+      "bytes": 1057,
+      "sha256": "3875b7ee24c8b890de5b2a317b8ec8413ce75ec1a0c9a84dc14e9989acf5848a"
+    },
+    {
+      "path": "scripts/realtime_detection_dashboard.py",
+      "bytes": 11021,
+      "sha256": "e680135c1a9823ba99c0a20dc41d5ac88d1a77ad01f06dfeee1ba6a84c55bc32"
+    },
+    {
+      "path": "scripts/run_experiment.py",
+      "bytes": 3616,
+      "sha256": "b4ad43c776bf18315c086a1b77683b6f279ad0b8439baffbc57bee1bbfff3054"
+    },
+    {
+      "path": "scripts/run_full_experiment.py",
+      "bytes": 22626,
+      "sha256": "700e2ec531405527e412270ac0ff325e4c2143a5a2949968869a74f2c4156a90"
+    },
+    {
+      "path": "scripts/start_mininet_experiment.sh",
+      "bytes": 1621,
+      "sha256": "e4d2d5abea51efa42321e24526b47e5ede051940d98a64600d16b5507f4a3681"
+    },
+    {
+      "path": "scripts/utils.py",
+      "bytes": 4275,
+      "sha256": "ace35d547b87de8a90c8000a205b1fad97527f38f32176f4c7e5bfae9bdf5fcf"
+    },
+    {
+      "path": "test_controller.sh",
+      "bytes": 2248,
+      "sha256": "05f82ba2f014ce489ec9c3a5d9f430cc41fe3bdf339cfd24523957bc45f86ef5"
+    },
+    {
+      "path": "topos/network_topo.py",
+      "bytes": 8112,
+      "sha256": "fb206dba3c46e0be05ac4448963097a3df00347c830466bd14b2de12ea2b5e0a"
+    }
+  ],
+  "excluded": [
+    {
+      "path": ".vscode/settings.json",
+      "bytes": 346,
+      "reason": "Cache, configuration locale ou journal d’exécution"
+    },
+    {
+      "path": "article/main.aux",
+      "bytes": 6496,
+      "reason": "Sortie de compilation de l’article ; sources conservées"
+    },
+    {
+      "path": "article/main.bbl",
+      "bytes": 672,
+      "reason": "Sortie de compilation de l’article ; sources conservées"
+    },
+    {
+      "path": "article/main.blg",
+      "bytes": 940,
+      "reason": "Sortie de compilation de l’article ; sources conservées"
+    },
+    {
+      "path": "article/main.fdb_latexmk",
+      "bytes": 22230,
+      "reason": "Sortie de compilation de l’article ; sources conservées"
+    },
+    {
+      "path": "article/main.fls",
+      "bytes": 20339,
+      "reason": "Sortie de compilation de l’article ; sources conservées"
+    },
+    {
+      "path": "article/main.log",
+      "bytes": 27064,
+      "reason": "Sortie de compilation de l’article ; sources conservées"
+    },
+    {
+      "path": "article/main.pdf",
+      "bytes": 1534844,
+      "reason": "Sortie de compilation de l’article ; sources conservées"
+    },
+    {
+      "path": "article/main.synctex.gz",
+      "bytes": 136688,
+      "reason": "Sortie de compilation de l’article ; sources conservées"
+    },
+    {
+      "path": "controllers/__pycache__/monitoring_controller.cpython-312.pyc",
+      "bytes": 13232,
+      "reason": "Cache, configuration locale ou journal d’exécution"
+    },
+    {
+      "path": "controllers/__pycache__/monitoring_controller.cpython-39.pyc",
+      "bytes": 7987,
+      "reason": "Cache, configuration locale ou journal d’exécution"
+    },
+    {
+      "path": "controllers/__pycache__/switch_simple.cpython-39.pyc",
+      "bytes": 1309,
+      "reason": "Cache, configuration locale ou journal d’exécution"
+    },
+    {
+      "path": "controllers/current_label.txt",
+      "bytes": 6,
+      "reason": "État temporaire de labellisation"
+    },
+    {
+      "path": "data/network_traffic_20260308_120146.csv",
+      "bytes": 293639469,
+      "reason": "Donnée ou artefact d’apprentissage généré ; conservé dans le ZIP original"
+    },
+    {
+      "path": "data/prepared/scaler_stats.json",
+      "bytes": 315,
+      "reason": "Donnée ou artefact d’apprentissage généré ; conservé dans le ZIP original"
+    },
+    {
+      "path": "data/prepared/test_normalized.csv",
+      "bytes": 62389564,
+      "reason": "Donnée ou artefact d’apprentissage généré ; conservé dans le ZIP original"
+    },
+    {
+      "path": "data/prepared/train_normalized.csv",
+      "bytes": 291175103,
+      "reason": "Donnée ou artefact d’apprentissage généré ; conservé dans le ZIP original"
+    },
+    {
+      "path": "data/prepared/val_normalized.csv",
+      "bytes": 62384106,
+      "reason": "Donnée ou artefact d’apprentissage généré ; conservé dans le ZIP original"
+    },
+    {
+      "path": "label_encoder.pkl",
+      "bytes": 492,
+      "reason": "Donnée ou artefact d’apprentissage généré ; conservé dans le ZIP original"
+    },
+    {
+      "path": "logs/controller.log",
+      "bytes": 2988,
+      "reason": "Cache, configuration locale ou journal d’exécution"
+    },
+    {
+      "path": "logs/controller_ryu.out",
+      "bytes": 4635676,
+      "reason": "Cache, configuration locale ou journal d’exécution"
+    },
+    {
+      "path": "network_traffic.csv",
+      "bytes": 168143348,
+      "reason": "Donnée ou artefact d’apprentissage généré ; conservé dans le ZIP original"
+    },
+    {
+      "path": "random_forest_model.pkl",
+      "bytes": 35154137,
+      "reason": "Donnée ou artefact d’apprentissage généré ; conservé dans le ZIP original"
+    },
+    {
+      "path": "scripts/__pycache__/attack_generator.cpython-312.pyc",
+      "bytes": 15654,
+      "reason": "Cache, configuration locale ou journal d’exécution"
+    },
+    {
+      "path": "scripts/__pycache__/attack_generator.cpython-39.pyc",
+      "bytes": 8902,
+      "reason": "Cache, configuration locale ou journal d’exécution"
+    },
+    {
+      "path": "scripts/__pycache__/generate_attacks.cpython-39.pyc",
+      "bytes": 1171,
+      "reason": "Cache, configuration locale ou journal d’exécution"
+    },
+    {
+      "path": "scripts/__pycache__/generate_normal_trafic.cpython-39.pyc",
+      "bytes": 1254,
+      "reason": "Cache, configuration locale ou journal d’exécution"
+    },
+    {
+      "path": "scripts/__pycache__/run_experiment.cpython-39.pyc",
+      "bytes": 4873,
+      "reason": "Cache, configuration locale ou journal d’exécution"
+    },
+    {
+      "path": "scripts/__pycache__/run_full_experiment.cpython-312.pyc",
+      "bytes": 20899,
+      "reason": "Cache, configuration locale ou journal d’exécution"
+    },
+    {
+      "path": "scripts/__pycache__/utils.cpython-39.pyc",
+      "bytes": 7815,
+      "reason": "Cache, configuration locale ou journal d’exécution"
+    },
+    {
+      "path": "scripts/current_label.txt",
+      "bytes": 6,
+      "reason": "État temporaire de labellisation"
+    },
+    {
+      "path": "topos/__pycache__/network_topo.cpython-312.pyc",
+      "bytes": 9364,
+      "reason": "Cache, configuration locale ou journal d’exécution"
+    },
+    {
+      "path": "topos/__pycache__/network_topo.cpython-39.pyc",
+      "bytes": 5528,
+      "reason": "Cache, configuration locale ou journal d’exécution"
+    }
+  ],
+  "adapted_files": [
+    "README.md",
+    ".gitignore"
+  ],
+  "added_files": [
+    "MIGRATION.md",
+    "IMPORT_MANIFEST.json"
+  ]
+}
